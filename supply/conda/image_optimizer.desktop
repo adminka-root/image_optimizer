@@ -1,0 +1,12 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=Image Optimizer
+Name[ru]=Оптимизатор изображений
+Comment=Image Optimizer for GNU/Linux
+Comment[ru]=Оптимизатор изображений для GNU/Linux
+Categories=Graphics;Photography;
+Exec=/bin/sh -c "~/.local/share/image_optimizer/supply/conda/image_optimizer.run -f %F"
+Icon=image_optimizer
+MimeType=image/jpeg;image/png;image/x-png;
+Type=Application
+# Terminal=true

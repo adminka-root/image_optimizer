@@ -1,0 +1,13 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>about.svg</file>
+    <file>auto_close.svg</file>
+    <file>auto_optimize_1.svg</file>
+    <file>auto_optimize_2.svg</file>
+    <file>auto_tray.svg</file>
+    <file>save_config.svg</file>
+    <file>settings.svg</file>
+    <file>show_full_file_names.svg</file>
+    <file>window_icon.svg</file>
+  </qresource>
+</RCC>

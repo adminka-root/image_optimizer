@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+# ln -s "$(which conda)" ~/.local/bin/
+export PATH="~/.local/bin/:$PATH"
+conda_run="$(conda shell.bash hook)"
+
+eval "$conda_run" && conda activate image_optimizer && ~/.local/share/image_optimizer/source/main.py "$@"
